@@ -24,6 +24,14 @@ schreibt euch lieber eure eigenen skills, als meine blind zu kopieren. schaut re
 
 und wenn ihr euch mal richtig sicher seid, dass euer plan super ist: benutzt matts [grilling-skill](skills/grilling/SKILL.md). der ist voll gut, um euch mit den fragen zu nerven, die ihr euch selbst noch nicht gestellt habt. gerade wenn ihr von eurem plan echt überzeugt seid, lasst ihn mal dran.
 
+## wann ich ki einsetzen würde
+
+bei all den tokens und skills: selber denken gehört trotzdem dazu. kann ich das ergebnis beurteilen? spart mir die ki wirklich zeit? und was passiert, wenn sie falsch liegt? wenn mir wichtiges wissen fehlt, muss ich es lernen oder jemanden dazuholen, der es hat. mehrere agenten, die sich einig sind, ersetzen das nicht.
+
+das flowchart bringt die fragen ganz gut zusammen:
+
+![llm usage flowchart: eigenes wissen, kompetenz der ki, zeitgewinn und mögliche folgen abwägen](assets/llm-usage-flowchart.png)
+
 ## mein stack
 
 - **harnesses:** t3 code, claude code, codex und opencode
