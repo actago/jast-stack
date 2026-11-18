@@ -58,6 +58,8 @@ die beispiele hier bündeln wiederkehrende aufgaben aus meinen sessions und zeig
 
 - **„was hat sich seit dem letzten kunden-release geändert und können wir das ausrollen?“** mit [cut-release](skills/cut-release/SKILL.md) änderungen und testplan zusammenbringen, zielumfang festlegen und den beauftragten rollout begleiten. danach jede zielinstanz prüfen: übersprungen ist nicht automatisch fertig. [release notes](skills/actaone-release-notes/SKILL.md) aus den tatsächlich enthaltenen änderungen ableiten.
 
+- **„bleib dran, bis der release oder deploy wirklich passt.“** [babysit-release](skills/babysit-release/SKILL.md) schaut zuerst in die git-historie: was ist neu, welche templates oder schalter braucht es und wie testen wir das? dann den kandidaten auf staging begleiten und die neuen funktionen prüfen. [babysit-deploy](skills/babysit-deploy/SKILL.md) macht das für den rollout: basischecks auf allen zielen, funktionstests auf gezielt ausgewählten instanzen und später nochmal nachsehen. gleicher image-tag heißt nicht automatisch, dass die neue konfiguration angekommen ist.
+
 - **„modell x soll erstmal nur auf staging laufen.“** mit [actaone-litellm](skills/actaone-litellm/SKILL.md) modell, team, key und sichtbarkeit auseinanderhalten. anschließend über [benchmarks](skills/actaone-benchmarks/SKILL.md) vergleichen, ohne einen laufenden testsuite-lauf zu verfälschen.
 
 - **„die websuche ist langsam oder die pseudonymisierung verhält sich komisch.“** erst den richtigen dienst und clientpfad bestimmen. mit [websearch](skills/actaone-websearch/SKILL.md) suche, scraping und reranking getrennt prüfen; mit [presidio](skills/actaone-presidio/SKILL.md) anbindung und erkennerqualität. nicht einfach den erstbesten reranker oder container anfassen.

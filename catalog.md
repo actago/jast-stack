@@ -1,6 +1,6 @@
 ﻿# katalog
 
-hier sind die 49 skills aus dem repo, nach aufgabe sortiert. jeder link führt direkt zur anleitung. quellen, voraussetzungen und anpassungen stehen im jeweiligen skill-ordner.
+hier sind die 51 skills aus dem repo, nach aufgabe sortiert. jeder link führt direkt zur anleitung. quellen, voraussetzungen und anpassungen stehen im jeweiligen skill-ordner.
 
 ## planen, entwickeln und prüfen
 
@@ -45,6 +45,8 @@ hier sind die 49 skills aus dem repo, nach aufgabe sortiert. jeder link führt d
 | [sudo-window](skills/sudo-window/SKILL.md) | administrative zugänge und temporäre rechte für beauftragte systemänderungen handhaben. |
 | [diagnose-instance](skills/diagnose-instance/SKILL.md) | instanzfehler, deployprobleme, konfigurationsabweichungen und konkrete chatfehler untersuchen. |
 | [cut-release](skills/cut-release/SKILL.md) | releases vorbereiten, stable freigeben und auf den beauftragten zielumfang ausrollen. |
+| [babysit-release](skills/babysit-release/SKILL.md) | neue features und aktivierung aus git ableiten, den kandidaten auf staging begleiten und nach einem konkreten testplan abnehmen. |
+| [babysit-deploy](skills/babysit-deploy/SKILL.md) | rollout begleiten, wirksamen stand aller ziele prüfen und neue features auf canaries, risikobasierten stichproben und beim recheck testen. |
 | [actaone-vm-lifecycle](skills/actaone-vm-lifecycle/SKILL.md) | zustandswechsel von instanzen begleiten: branch-ttl, hotseats, archivierung, wiederaufnahme und abbau. |
 | [actaone-provision-customer](skills/actaone-provision-customer/SKILL.md) | kundeninstanzen anlegen, hotseats übernehmen und onboarding sowie lebenszyklus prüfen. |
 | [actaone-provisioning-webhook](skills/actaone-provisioning-webhook/SKILL.md) | den provisioning-webhook, seinen payload-vertrag und integrationsfehler bearbeiten. |

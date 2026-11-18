@@ -15,3 +15,11 @@ Jacob nutzt viel Subagent-Arbeit und Cross-Harness-Reviews in T3, etwa Astra und
 Ein brauchbares Finding nennt Datei/Stelle, Auslöser, Folge und einen konkreten Fix. Widersprechende Reviews gegen Code oder Test auflösen; Zustimmung mehrerer Agenten ersetzt keinen Nachweis. Im Abschluss unterscheiden: implementiert, getestet, reviewt, gemergt und ausgerollt. Für größere Vorhaben diesen Stand im selben [Postplan](../skills/postplan/SKILL.md) pflegen.
 
 [full-stop](../skills/full-stop/SKILL.md) endet am mergebereiten PR, [full-send](../skills/full-send/SKILL.md) schließt den Merge ein. In actaOne können gemergte Templates und Provisioner den nächsten Deploy beeinflussen, auch ohne neues Kunden-Release. Dafür den [Release-Ablauf](../skills/cut-release/SKILL.md) und den konkreten Auftrag berücksichtigen.
+
+## release und deploy babysitten
+
+[babysit-release](../skills/babysit-release/SKILL.md) begleitet einen konkreten Kandidaten auf Staging bzw. einer benannten Testinstanz. [babysit-deploy](../skills/babysit-deploy/SKILL.md) begleitet den beauftragten Rollout. Beide leiten zuerst aus Git-Deltas einen Feature- und Aktivierungsplan ab: Code allein reicht nicht, Template, Renderer, Vault und Migration müssen zur Zielinstanz passen.
+
+Release-Abnahme prüft alle anwendbaren Änderungen auf dem kleinen Testzielumfang. Beim Flotten-Deploy bekommt jede Zielinstanz Basis-/Konfigurationsnachweise; funktionale Tests laufen risikobasiert auf Canary und Vertretern der betroffenen Profile sowie zeitversetzt nach dem Rollout. Ein Fehler erweitert die Prüfung. Jobstatus, Konfigurationsnachweis und Funktionstest bleiben getrennt sichtbar.
+
+Die Skills verwenden verfügbare Beobachtungsmechanismen, Postplan und Hark nach Auftrag. Sie installieren keinen eigenen Watch-Dienst und können ohne laufenden Harness keine dauerhafte Überwachung versprechen.
