@@ -34,6 +34,8 @@ schreibt euch lieber eure eigenen skills, als meine blind zu kopieren. schaut re
 
 viel davon ist über zeit zusammengewachsen. ich nehm das, was mir gerade arbeit abnimmt, und bau den rest dazu.
 
+prompt engineering guide: [hier entlang](https://www.instagram.com/reel/Df1cN_qu8k9/?fqnt=dTJ0a25rZXBrZzQ0).
+
 lg jacob
 
 ## ai;dr
