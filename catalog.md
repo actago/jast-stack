@@ -1,116 +1,105 @@
-# Bestandsaufnahme
+﻿# katalog
 
-Aktueller Gesamtstand: **49 Skills**, alle strukturell geprüft. Ältere Zählungen unten dokumentieren frühere Übernahmestufen. Die vollständige Verfügbarkeit hängt von den pro Skill genannten Tools, Modellen und externen Arbeitsordnern ab.
+hier sind die 49 skills aus dem repo, nach aufgabe sortiert. jeder link führt direkt zur anleitung. quellen, voraussetzungen und anpassungen stehen im jeweiligen skill-ordner.
 
-## Zoho und Postplan
+## planen, entwickeln und prüfen
 
-- [actaone-zoho-desk](skills/actaone-zoho-desk/SKILL.md): actaOne-Abteilungsgrenze auch bei unbekannten Ticket-IDs, Triagieren, interne Antwortentwürfe statt Kundenmail, bedarfsweiser Postplan.
-- [actaone-zoho-projects](skills/actaone-zoho-projects/SKILL.md): Portal-/Projektzuordnung, korrekte Filter/Status-/Ownerformen, Änderungsvorschau, keine Löschung, bedarfsweiser Postplan.
+| skill | wofür |
+| --- | --- |
+| [grilling](skills/grilling/SKILL.md) | einen plan oder eine idee gründlich hinterfragen. gerade dann, wenn man schon sehr überzeugt davon ist. |
+| [to-spec](skills/to-spec/SKILL.md) | aus dem besprochenen vorhaben eine konkrete spezifikation machen. |
+| [to-tickets](skills/to-tickets/SKILL.md) | einen plan in umsetzbare tickets mit abhängigkeiten zerlegen. |
+| [implement](skills/implement/SKILL.md) | arbeit anhand einer spezifikation oder vorhandener tickets umsetzen. |
+| [triage](skills/triage/SKILL.md) | issues und externe prs einordnen, prüfen und für die bearbeitung vorbereiten. |
+| [diagnosing-bugs](skills/diagnosing-bugs/SKILL.md) | fehler und performanceprobleme systematisch eingrenzen. |
+| [tdd](skills/tdd/SKILL.md) | features und fixes mit dem red-green-testzyklus entwickeln. |
+| [code-review](skills/code-review/SKILL.md) | änderungen getrennt gegen projektregeln und die spezifikation prüfen. |
+| [codebase-design](skills/codebase-design/SKILL.md) | module, schnittstellen und testbare grenzen entwerfen. |
+| [domain-modeling](skills/domain-modeling/SKILL.md) | begriffe, fachmodell und architekturentscheidungen schärfen und festhalten. |
+| [research](skills/research/SKILL.md) | eine frage anhand von primärquellen recherchieren und die ergebnisse dokumentieren. |
+| [writing-for-agents](skills/writing-for-agents/SKILL.md) | anleitungen und dokumentation schreiben, mit denen agenten arbeiten können. |
+| [resolving-merge-conflicts](skills/resolving-merge-conflicts/SKILL.md) | merge- und rebase-konflikte anhand der absicht beider änderungen lösen. |
 
-Beide am 17.11.2026 aus Teamregeln und tatsächlich verfügbaren MCP-Schemas erstellt. Zoho bleibt maßgeblich für operative Datensätze; Postplan ist keine automatisch synchronisierte oder als vertraulich belegte Kopie. Keine Live-Abnahme, kein Zugriff auf Ticket-/Aufgabeninhalte während der Erstellung.
+## prs und reviews mit mehreren agenten
 
-## Abgeschlossene Übernahme weiterer Skills
+| skill | wofür |
+| --- | --- |
+| [full-send](skills/full-send/SKILL.md) | eine änderung durch umsetzung, review, pr und checks bis zum merge bringen. |
+| [full-stop](skills/full-stop/SKILL.md) | denselben ablauf bis zum mergebereiten pr durchführen und dort stoppen. |
+| [council](skills/council/SKILL.md) | reviews mit drei modellen verschiedener anbieter durchführen und findings abgleichen. |
+| [sol-loop](skills/sol-loop/SKILL.md) | eine änderung wiederholt mit einem sol-reviewer prüfen und findings auflösen. |
+| [file-pr](skills/file-pr/SKILL.md) | einen pr mit verständlicher beschreibung und passenden belegen anlegen. |
+| [babysit-pr](skills/babysit-pr/SKILL.md) | ci und reviews eines prs verfolgen und relevante probleme bearbeiten. |
+| [takeover](skills/takeover/SKILL.md) | bestehende arbeit an einem pr, branch oder agenten-thread übernehmen. |
+| [modernize](skills/modernize/SKILL.md) | ältere prs auf den aktuellen stand bringen. |
+| [leaving-pr-comments](skills/leaving-pr-comments/SKILL.md) | klare, korrekt formatierte kommentare auf github schreiben. |
 
-[pptx](skills/pptx/SKILL.md) und [xlsx](skills/xlsx/SKILL.md) sind vollständig übernommen und strukturell geprüft. Quelle: synchronisierter Anthropic-Bestand, Stand 16.11.2026, Apache-2.0-Lizenzdateien erhalten. Alle 27 Ergänzungen der dritten Ausbaustufe sind integriert, einschließlich 22 Engineering-Skills und der drei eigenen Abläufe für Release Notes, Trailer und Webhook. Praktische Ausführung und gesonderte XSD-Lizenzprüfung stehen aus. Folgende ältere Zahlen beschreiben vorherige Meilensteine.
+## actaone entwickeln und betreiben
 
-## Dokumente und CI-PDFs
+| skill | wofür |
+| --- | --- |
+| [actaone-local-dev](skills/actaone-local-dev/SKILL.md) | den librechat-fork lokal starten, ports und dienste zuordnen und ein testkonto einrichten. |
+| [actaone-infra](skills/actaone-infra/SKILL.md) | den richtigen dienst, die umgebung, den zugangsweg und das runbook finden. |
+| [actaone-ansible](skills/actaone-ansible/SKILL.md) | playbooks und persistente konfiguration ändern, applies vorbereiten und ergebnisse prüfen. |
+| [keyvault-edit](skills/keyvault-edit/SKILL.md) | konfiguration über den vorgesehenen vault-scope ändern und ihre wirksamkeit prüfen. |
+| [sudo-window](skills/sudo-window/SKILL.md) | administrative zugänge und temporäre rechte für beauftragte systemänderungen handhaben. |
+| [diagnose-instance](skills/diagnose-instance/SKILL.md) | instanzfehler, deployprobleme, konfigurationsabweichungen und konkrete chatfehler untersuchen. |
+| [cut-release](skills/cut-release/SKILL.md) | releases vorbereiten, stable freigeben und auf den beauftragten zielumfang ausrollen. |
+| [actaone-vm-lifecycle](skills/actaone-vm-lifecycle/SKILL.md) | zustandswechsel von instanzen begleiten: branch-ttl, hotseats, archivierung, wiederaufnahme und abbau. |
+| [actaone-provision-customer](skills/actaone-provision-customer/SKILL.md) | kundeninstanzen anlegen, hotseats übernehmen und onboarding sowie lebenszyklus prüfen. |
+| [actaone-provisioning-webhook](skills/actaone-provisioning-webhook/SKILL.md) | den provisioning-webhook, seinen payload-vertrag und integrationsfehler bearbeiten. |
+| [actaone-service-rollout](skills/actaone-service-rollout/SKILL.md) | zentrale dienste über canary und wellen einführen und den abbau alter ressourcen vorbereiten. |
 
-Jetzt enthalten: [actaone-documents](skills/actaone-documents/SKILL.md) als gemeinsamer CI-/Abnahmeablauf sowie die vollständigen [docx](skills/docx/SKILL.md)- und [pdf](skills/pdf/SKILL.md)-Ordner aus dem synchronisierten Claude-Bestand, mit Apache-2.0-Lizenzen und SHA-256-Quellmanifesten. Insgesamt 20 Skills. Aktive Installationen unverändert. Konkrete CI-Assets und Vorlagen sind noch nicht identifiziert; der Ablauf erfindet keine Markenwerte.
+## modelle, suche und auswertung
 
-Der vorhandene `docs`-Skill ist nur ein Claude-Connector-Einstieg. Statt diese Laufzeitabhängigkeit vorauszusetzen, entscheidet `actaone-documents` anhand des gewünschten Formats und verfügbarer Werkzeuge. Word-/PDF-Hilfsskripte übernommen, aber nicht ausgeführt; Strukturprüfung ist keine Renderabnahme.
+| skill | wofür |
+| --- | --- |
+| [actaone-litellm](skills/actaone-litellm/SKILL.md) | modelle, freigaben, teams, keys und discovery im gateway bearbeiten. |
+| [actaone-presidio](skills/actaone-presidio/SKILL.md) | pseudonymisierung, erkennerqualität und die anbindung der instanzen prüfen. |
+| [actaone-websearch](skills/actaone-websearch/SKILL.md) | websuche, scraping, reranking und quellenqualität untersuchen. |
+| [actaone-benchmarks](skills/actaone-benchmarks/SKILL.md) | modellvergleiche und messreihen auf der benchmark-instanz durchführen. |
+| [actaone-usage-analysis](skills/actaone-usage-analysis/SKILL.md) | nutzungsaggregate je instanz lesend auswerten und kostenbegriffe auseinanderhalten. |
 
-## Zweite Ausbaustufe
+## tickets, projekte und wissen
 
-Ergänzung: [postplan](skills/postplan/SKILL.md) entwickelt den vorhandenen Hermes-Skill zum dauerhaft gepflegten Projekttracker weiter. Ein Artefakt pro größerem Vorhaben, Fortschreibung derselben URL und belegte Statusübergänge. Nutzerbeispiel gelesen; kein Upload oder Update ausgeführt. Insgesamt jetzt 17 Skills.
+| skill | wofür |
+| --- | --- |
+| [actaone-zoho-desk](skills/actaone-zoho-desk/SKILL.md) | actaone-tickets bearbeiten und antwortentwürfe als interne kommentare hinterlegen. keine kundenmails senden. |
+| [actaone-zoho-projects](skills/actaone-zoho-projects/SKILL.md) | aufgaben, status, verantwortliche und termine pflegen. änderungen vorher zeigen, nichts löschen. |
+| [postplan](skills/postplan/SKILL.md) | für größere vorhaben einen projektplan anlegen und unter derselben url weiterpflegen. |
+| [actaone-kb-maintenance](skills/actaone-kb-maintenance/SKILL.md) | die obsidian-wissensbasis lesen, notizen pflegen und arbeitswissen aus sessions festhalten. |
 
-Auch [zentraler Service-Rollout](skills/actaone-service-rollout/SKILL.md) ist ausgearbeitet. Die Integration präzisiert bestehende Auftragsfreigaben, Teilfehler laufender Flottenjobs und den Unterschied zwischen Wiederanlauf und Redeploy. Abschaltung benötigt Belege sowohl aus Runtime als auch aus persistenter Konfiguration.
+zoho desk und projects nutzen die bereitgestellten mcp-server. postplan kommt bei größeren vorhaben dazu, wenn es verfügbar und sinnvoll ist; zoho bleibt für tickets und aufgaben maßgeblich.
 
-Fertig ausgearbeitet: [Kundenanlage](skills/actaone-provision-customer/SKILL.md) und [Wissenspflege](skills/actaone-kb-maintenance/SKILL.md). Quellen- und Strukturprüfung, keine Live-Abnahme. Vor späterer Installation den vorhandenen Projektskill `provision-customer` bzw. das vom Vault-Setup installierte `vault-refresh` auf Überschneidungen prüfen; aktive Installationen bleiben unverändert.
+## dokumente und kommunikation
 
-[actaone-vm-lifecycle](skills/actaone-vm-lifecycle/SKILL.md) ergänzt die Übergangsprüfungen zwischen Release, Instanzbetrieb und Abbau. [Benchmarks](skills/actaone-benchmarks/SKILL.md) und [Nutzungsauswertung](skills/actaone-usage-analysis/SKILL.md) sind ebenfalls integriert. Damit umfasst die Sammlung 16 Skills. Die sechs Ergänzungen sind quellengeprüfte Entwürfe mit synthetischen Fällen, noch ohne unabhängige Verhaltensprüfung oder Live-Abnahme; Details stehen in den Quellenangaben der jeweiligen Skills.
+| skill | wofür |
+| --- | --- |
+| [actaone-documents](skills/actaone-documents/SKILL.md) | dokumente, präsentationen und berichte mit den passenden ci-vorlagen gestalten. |
+| [docx](skills/docx/SKILL.md) | word-dateien und vorlagen erstellen, lesen und bearbeiten. |
+| [pdf](skills/pdf/SKILL.md) | pdfs erstellen, auslesen, zusammenfügen und bearbeiten. |
+| [pptx](skills/pptx/SKILL.md) | powerpoint-präsentationen und vorlagen erstellen oder überarbeiten. |
+| [xlsx](skills/xlsx/SKILL.md) | tabellen, formeln und auswertungen erstellen oder bearbeiten. |
+| [actaone-release-notes](skills/actaone-release-notes/SKILL.md) | release-änderungen in belegte release notes und produkt-payloads übersetzen. |
+| [making-actaone-feature-trailers](skills/making-actaone-feature-trailers/SKILL.md) | feature-trailer und kurze produktvideos erstellen oder überarbeiten. |
 
-## Aus dem Bestand ausgearbeitete erste Sammlung
+## was ihr dafür braucht
 
-Die [README](README.md#erste-sammlung) erschließt zehn Skill-Ordner. `cut-release`, `diagnose-instance`, `keyvault-edit` und `sudo-window` entwickeln vorhandene gleichnamige Skills weiter. `actaone-infra`, `actaone-ansible`, `actaone-presidio` und `actaone-websearch` erschließen vorhandene Agentenprofile und Betriebswissen. `actaone-local-dev` und `actaone-litellm` bündeln die in Sessions und Quellrepos belegten Abläufe. Herkunft und Grenzen stehen je Skill in `references/sources.md`.
+- die actaone-skills brauchen je nach aufgabe die privaten repos, runbooks, wissensbasis und eingerichteten zugänge.
+- die pr-skills brauchen github-zugang und teilweise weitere skills aus dieser sammlung. council und sol-loop brauchen die passenden modelle und einen harness, der sie aufrufen kann.
+- der trailer-skill braucht einen separaten arbeitsordner und seine werkzeuge. dieser ordner liegt nicht hier im repo.
+- firmenlogos, schriften und ci-vorlagen müsst ihr bereitstellen. die dokument-skills enthalten keine fertige actago-ci-ausstattung.
+- formatwerkzeuge und hilfsskripte haben eigene abhängigkeiten. schaut vor dem einsatz in den jeweiligen skill, besonders unter windows.
 
-Die nachfolgende Liste dokumentiert weiterhin den Ausgangsbestand. Aktive Installationen wurden nicht migriert. Engineering-Skills und Office-Snapshots sind inzwischen im Repo enthalten. Die unabhängigen Textprüfungen der ersten zehn Skills sind abgeschlossen; Pr?fgrenzen stehen in den Quellenangaben der jeweiligen Skills.
+quellen und lizenzen stehen in den skill-ordnern. die engineering-skills von matt pocock und tstack tragen mit-lizenzen, die vier office-skills apache-2.0-lizenzen. details und weitere hinweise stehen jeweils in `references/sources.md`.
 
-Ergänzung aus der Session-Auswertung: Neben den zuerst erfassten Standardverzeichnissen ist `~/.claude-jast` ein verwendetes Profil; außerdem existiert `~/.claude-firma`. Profil- und projektspezifische Memories enthalten zusätzliche Abläufe. Die ursprüngliche Inventur deckt diese Quellen nicht vollständig ab.
+## prüfen
 
-Stand: 2026-11-17. Grundlage sind lokale Dateien, ausgewählte gelesene Skill-Einstiege und `~/.agents/.skill-lock.json`. Das belegt vorhandene Installationen, nicht Nutzungshäufigkeit oder heutige Funktionstüchtigkeit. `~` bezeichnet das lokale Benutzerverzeichnis.
+```text
+python -m pip install -r requirements-dev.txt
+python scripts/validate.py
+```
 
-## actaOne-spezifische Grundlagen
+der validator prüft struktur und links. er führt die workflows nicht aus. die szenarien in `evaluation.md` beschreiben, wie sich ein skill verhalten soll; sie sind keine automatisch ausgeführten tests.
 
-Unter `actaOne/.claude/skills/`:
-
-- `cut-release`: Releases, Staging, Stable und Promotion.
-- `diagnose-instance`: Instanz- und Pipeline-Diagnose.
-- `keyvault-edit`: Konfiguration und Secrets über den Vault.
-- `provision-customer`: Kundenanlage und Onboarding.
-- `benchmark-tweak`: Änderungen an der Benchmark-Instanz.
-- `sudo-window`: temporäre administrative Rechte; vor Übernahme auf aktuelle Umgebung und Secret-Übergabe prüfen.
-
-Unter `~/.claude/skills/`:
-
-- `actaone-provisioning-webhook`: Webhook-Vertrag und Integrationen.
-- `running-actaone-benchmarks`: Modellvergleiche und Benchmark-Auswertung.
-- `making-actaone-feature-trailers`: bestehende Trailer-Produktion, abhängig vom separaten Trailer-Repo und dessen Werkzeugen.
-- `vault-refresh`: Aktualisierung der bestehenden Wissensbasis.
-
-Unter `~/.codex/skills/`:
-
-- `obsidian-actaone-kb`: Wissen lesen und pflegen; enthält einen persönlichen absoluten Pfad.
-- `hark-notify`: persönliche Benachrichtigungen; auch unter Claude installiert. Persönliches Ziel vor einer Teamübernahme auslagern.
-
-Weitere Kandidaten im actaOne-Repo:
-
-- `agent/hermes/skills/actaone-core`: Plattformwissen und Engineering-/Betriebsregeln mit zwölf referenzierten Themenbereichen.
-- `agent/hermes/skills/actaone-release-notes`: Release-Entwürfe mit Quellenbelegen, Zielgruppen und Ausgabeschema; verweist auf `actaone-core`.
-- `agent/hermes-skills/postplan`: geprüft und als `skills/postplan` um Projekttracking erweitert; aktive Quelle unverändert.
-
-Die Hermes-Skills sind wegen ihres Entwicklerbezugs Kandidaten. Ihre Laufzeitannahmen müssen vor Übernahme geprüft werden. Der Produkt-Skill `document-generation` wurde gesichtet, gehört aber nicht zum jetzt vereinbarten Umfang.
-
-## Infrastruktur, Ansible und Verbindungen
-
-Die erste Inventur war zu eng auf `SKILL.md` beschränkt. Weitere vorhandene Bausteine:
-
-- `actaOne/.claude/agents/actaone-infra.md`: Agentenprofil mit Ansible-Arbeitsweise, Rollen, Prüfungen, Management-Zugang und Betriebsregeln. Enthält historische Flottenangaben vom 21.07.2026; vor Übernahme mit neueren Quellen abgleichen.
-- `actaOne/infra/playbooks/`: tatsächliche Playbooks, darunter `configure-deploy-control-api.yml`, `configure-ops-dashboard.yml`, `configure-webhook-receiver.yml`, `management-vm.yml` und `site.yml`. Rollen, group_vars und `inventory.example.yml` liegen ebenfalls in `infra/`.
-- `actaOne/docs/PROXMOX_SETUP.md`: Ansible-Control-Node, SSH-/Docker-Kontext-Einrichtung und Runtime-Identitäten; verweist für konkrete Ansible-/Vault-Kommandos auf `docs/AZURE_KEY_VAULT.md`.
-- Bestehende Wissensbasis `~/Obsidian/actaOne-KB/10 actaOne/Infrastruktur (MOC).md`: Navigation zu Topologie, Service-Referenzen, Betriebswissen und Klon-Testumgebung. Ergänzungsdatum 08.11.2026; ältere Abschnitte behalten ihren historischen Stand.
-- Dieselbe Wissensbasis: `Klon-Testumgebung pvetest (Referenz)` sowie `Helsinki Clone - Zugang und Mailversand` als Einstieg zu gesonderten Klon-Zugängen. Nicht mit dem Produktionszugang gleichsetzen.
-- `ssh acta-mgmt` und Repo `~/actaOne` sind in vorhandenen Agenten-/Skill-Anleitungen dokumentiert. Ein aktueller Verbindungs- oder Berechtigungstest wurde bei dieser Bestandsaufnahme nicht durchgeführt.
-
-Damit gehört zum JAST-Stack auch die gezielte Erschließung bestehender Agentenprofile, Runbooks und MOCs. Ein eigener Ansible-Skill wurde in den bisher geprüften Skill-Verzeichnissen nicht gefunden; Ansible-Wissen ist bereits in diesen Quellen vorhanden.
-
-Umsetzungsnachtrag: Dieses vorhandene Wissen wurde inzwischen in `skills/actaone-ansible` als eigener Ablauf erschlossen. `skills/actaone-infra` führt zu den bestehenden Quellen. Der Befund „kein Ansible-Skill gefunden“ beschreibt den Ausgangsbestand, nicht den heutigen Entwurf.
-
-## Externe Engineering-Grundlage
-
-Die lokalen Installationsmetadaten weisen unter anderem folgende Skills `mattpocock/skills` zu:
-
-- Qualität: `diagnosing-bugs`, `code-review`, `tdd`.
-- Planung und Umsetzung: `grilling`, `to-spec`, `to-tickets`, `implement`, `triage`.
-- Architektur und Wissen: `codebase-design`, `domain-modeling`, `research`, `writing-for-agents`.
-
-Die 13 übernommenen Engineering-Skills wurden gegen `mattpocock/skills@885e2ca` abgeglichen. MIT-Lizenzen sind je Ordner enthalten, Herkunft und SHA-256-Manifeste dokumentiert. Zusätzlich enthalten ist `resolving-merge-conflicts`; siehe jeweilige `references/sources.md` für Abhängigkeiten und Anpassungen.
-
-Die vorhandene tstack-Gruppe umfasst `full-send`, `full-stop`, `council`, `sol-loop`, `file-pr`, `takeover`, `babysit-pr`, `modernize` und `leaving-pr-comments`. Alle neun sind übernommen; Upstream-Abgleich gegen `t3dotgg/tstack@7de017b`, MIT-Lizenz je Ordner. Lokale PR-Screenshot-Regel und Windows-/POSIX-Sperre von `pr-wait` bleiben erhalten. Die Herkunft des Screenshot-Zusatzes ist nicht über Upstream/Installationsmetadaten belegt.
-
-## Doppelte Installationen
-
-Die Profilkopien der neun tstack-Skills verweisen auf denselben Bestand unter `.agents/skills`. Bei der dritten Übernahme wurden vollständige Ordner und Upstream-Herkunft geprüft. Bei `hark-notify` wurden nur die beiden Einstiegstexte als bytegleich festgestellt; dieser persönliche Skill wurde nicht übernommen.
-
-Ein gemeinsamer Quellbestand mit kontrollierter Installation könnte die parallelen Kopien ersetzen. Die vorhandenen Installationen wurden nicht geändert.
-
-## Vor einer Übernahme klären
-
-- `benchmark-tweak` und `running-actaone-benchmarks`: ergänzende Abläufe oder doppelte Regeln?
-- `vault-refresh` und `obsidian-actaone-kb`: gemeinsamer Wissenszugriff mit getrennten Pflegeabläufen?
-- `actaone-core` und Runbooks: maßgebliche Quellen oder veraltbare Snapshots?
-- Externe Engineering-Skills: welche werden tatsächlich eingesetzt und passen zusammen?
-- Persönliche Pfade, Benachrichtigungen und Tools: was gehört zum Entwickler, was zum gemeinsamen Stack?
-
-Nächste Übernahmeeinheit ist jeweils ein bestehender Skill mit allen Ressourcen und belegter Herkunft. Die Bestandsaufnahme ist noch keine validierte Distribution.
-
-Die internen Session-Auswertungen und Reviewberichte sind nicht Bestandteil dieses Repos. Historische Angaben zu diesen Quellen in den Skills dokumentieren deren Herkunft; die genannten Audit-Dateien werden nicht mitgeliefert.
+bei `implement`, `to-spec`, `to-tickets` und `triage` akzeptiert der codex-validator das claude-feld `disable-model-invocation` nicht. die passende installation und das aufrufverhalten müssen deshalb je harness geprüft werden.
