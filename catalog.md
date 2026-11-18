@@ -11,7 +11,7 @@ Beide am 17.11.2026 aus Teamregeln und tatsächlich verfügbaren MCP-Schemas ers
 
 ## Abgeschlossene Übernahme weiterer Skills
 
-[pptx](skills/pptx/SKILL.md) und [xlsx](skills/xlsx/SKILL.md) sind vollständig übernommen und strukturell geprüft. Quelle: synchronisierter Anthropic-Bestand, Stand 16.11.2026, Apache-2.0-Lizenzdateien erhalten. Alle 27 Ergänzungen der [dritten Ausbaustufe](research/third-wave-integration.md) sind integriert, einschließlich 22 Engineering-Skills und der drei eigenen Abläufe für Release Notes, Trailer und Webhook. Praktische Ausführung und gesonderte XSD-Lizenzprüfung stehen aus. Folgende ältere Zahlen beschreiben vorherige Meilensteine.
+[pptx](skills/pptx/SKILL.md) und [xlsx](skills/xlsx/SKILL.md) sind vollständig übernommen und strukturell geprüft. Quelle: synchronisierter Anthropic-Bestand, Stand 16.11.2026, Apache-2.0-Lizenzdateien erhalten. Alle 27 Ergänzungen der dritten Ausbaustufe sind integriert, einschließlich 22 Engineering-Skills und der drei eigenen Abläufe für Release Notes, Trailer und Webhook. Praktische Ausführung und gesonderte XSD-Lizenzprüfung stehen aus. Folgende ältere Zahlen beschreiben vorherige Meilensteine.
 
 ## Dokumente und CI-PDFs
 
@@ -27,15 +27,15 @@ Auch [zentraler Service-Rollout](skills/actaone-service-rollout/SKILL.md) ist au
 
 Fertig ausgearbeitet: [Kundenanlage](skills/actaone-provision-customer/SKILL.md) und [Wissenspflege](skills/actaone-kb-maintenance/SKILL.md). Quellen- und Strukturprüfung, keine Live-Abnahme. Vor späterer Installation den vorhandenen Projektskill `provision-customer` bzw. das vom Vault-Setup installierte `vault-refresh` auf Überschneidungen prüfen; aktive Installationen bleiben unverändert.
 
-[actaone-vm-lifecycle](skills/actaone-vm-lifecycle/SKILL.md) ergänzt die Übergangsprüfungen zwischen Release, Instanzbetrieb und Abbau. [Benchmarks](skills/actaone-benchmarks/SKILL.md) und [Nutzungsauswertung](skills/actaone-usage-analysis/SKILL.md) sind ebenfalls integriert. Damit umfasst die Sammlung 16 Skills. Die sechs Ergänzungen sind quellengeprüfte Entwürfe mit synthetischen Fällen, noch ohne unabhängige Verhaltensprüfung oder Live-Abnahme; siehe [Integrationsstand](research/second-wave-integration.md).
+[actaone-vm-lifecycle](skills/actaone-vm-lifecycle/SKILL.md) ergänzt die Übergangsprüfungen zwischen Release, Instanzbetrieb und Abbau. [Benchmarks](skills/actaone-benchmarks/SKILL.md) und [Nutzungsauswertung](skills/actaone-usage-analysis/SKILL.md) sind ebenfalls integriert. Damit umfasst die Sammlung 16 Skills. Die sechs Ergänzungen sind quellengeprüfte Entwürfe mit synthetischen Fällen, noch ohne unabhängige Verhaltensprüfung oder Live-Abnahme; Details stehen in den Quellenangaben der jeweiligen Skills.
 
 ## Aus dem Bestand ausgearbeitete erste Sammlung
 
 Die [README](README.md#erste-sammlung) erschließt zehn Skill-Ordner. `cut-release`, `diagnose-instance`, `keyvault-edit` und `sudo-window` entwickeln vorhandene gleichnamige Skills weiter. `actaone-infra`, `actaone-ansible`, `actaone-presidio` und `actaone-websearch` erschließen vorhandene Agentenprofile und Betriebswissen. `actaone-local-dev` und `actaone-litellm` bündeln die in Sessions und Quellrepos belegten Abläufe. Herkunft und Grenzen stehen je Skill in `references/sources.md`.
 
-Die nachfolgende Liste dokumentiert weiterhin den Ausgangsbestand. Aktive Installationen wurden nicht migriert. Engineering-Skills und Office-Snapshots sind inzwischen im Repo enthalten. Die unabhängigen Textprüfungen der ersten zehn Skills sind abgeschlossen; siehe [Korrekturen und Grenzen](research/final-review-resolution.md).
+Die nachfolgende Liste dokumentiert weiterhin den Ausgangsbestand. Aktive Installationen wurden nicht migriert. Engineering-Skills und Office-Snapshots sind inzwischen im Repo enthalten. Die unabhängigen Textprüfungen der ersten zehn Skills sind abgeschlossen; Pr?fgrenzen stehen in den Quellenangaben der jeweiligen Skills.
 
-Ergänzung aus der [Session-Auswertung](research/synthesis.md): Neben den zuerst erfassten Standardverzeichnissen ist `~/.claude-jast` ein verwendetes Profil; außerdem existiert `~/.claude-firma`. Profil- und projektspezifische Memories enthalten zusätzliche Abläufe. Die ursprüngliche Inventur deckt diese Quellen nicht vollständig ab.
+Ergänzung aus der Session-Auswertung: Neben den zuerst erfassten Standardverzeichnissen ist `~/.claude-jast` ein verwendetes Profil; außerdem existiert `~/.claude-firma`. Profil- und projektspezifische Memories enthalten zusätzliche Abläufe. Die ursprüngliche Inventur deckt diese Quellen nicht vollständig ab.
 
 Stand: 2026-11-17. Grundlage sind lokale Dateien, ausgewählte gelesene Skill-Einstiege und `~/.agents/.skill-lock.json`. Das belegt vorhandene Installationen, nicht Nutzungshäufigkeit oder heutige Funktionstüchtigkeit. `~` bezeichnet das lokale Benutzerverzeichnis.
 
@@ -112,3 +112,5 @@ Ein gemeinsamer Quellbestand mit kontrollierter Installation könnte die paralle
 - Persönliche Pfade, Benachrichtigungen und Tools: was gehört zum Entwickler, was zum gemeinsamen Stack?
 
 Nächste Übernahmeeinheit ist jeweils ein bestehender Skill mit allen Ressourcen und belegter Herkunft. Die Bestandsaufnahme ist noch keine validierte Distribution.
+
+Die internen Session-Auswertungen und Reviewberichte sind nicht Bestandteil dieses Repos. Historische Angaben zu diesen Quellen in den Skills dokumentieren deren Herkunft; die genannten Audit-Dateien werden nicht mitgeliefert.
