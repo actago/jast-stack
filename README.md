@@ -38,6 +38,8 @@ und wenn ihr euch mal richtig sicher seid, dass euer plan super ist: benutzt mat
 
 viel davon ist über zeit zusammengewachsen. ich nehm das, was mir gerade arbeit abnimmt, und bau den rest dazu.
 
+für long running tasks verwende ich [postplan](https://postplan.dev/) und [hark notifications](https://hark.ryan.ceo/), damit ich dauerhaft informiert bleibe, ohne die ganze zeit auf den agenten zu schauen. postplan hält den plan und fortschritt fest, hark schickt mir updates aufs handy, wenn etwas fertig ist, hängt oder meine entscheidung braucht.
+
 prompt engineering guide: [hier entlang](https://www.instagram.com/reel/Df1cN_qu8k9/?fqnt=dTJ0a25rZXBrZzQ0).
 
 lg jacob
