@@ -1,0 +1,4 @@
+interface:
+  display_name: "actaOne Release Notes"
+  short_description: "Draft user and admin release notes"
+  default_prompt: "Use $actaone-release-notes to draft separate user and admin patch notes from a release range."

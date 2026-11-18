@@ -1,0 +1,19 @@
+{
+  "source": "~/.agents/skills/codebase-design (installiert über ~/.agents/.skill-lock.json)",
+  "upstream": "https://github.com/mattpocock/skills/tree/885e2ca4d842d139e9aef4e48d366c63cb1b8013/skills/engineering/codebase-design",
+  "upstream_commit": "885e2ca4d842d139e9aef4e48d366c63cb1b8013",
+  "skill_folder_tree": "344e3efc88ee60663b2e989555c2efdb548fbd42",
+  "installed_at": "2026-08-19T14:06:28.211Z",
+  "license": "MIT",
+  "snapshot": "2026-11-17",
+  "hash_basis": "installierte Bytes vor JAST-Anpassung",
+  "sha256": {
+    "DEEPENING.md": "a67260cb384580b60430486edeb47a6e656ea5f8a42b7196b24461459031f00c",
+    "DESIGN-IT-TWICE.md": "4c3b083988c0b34449dfef3f4fcee963e3d7fc614c71beacfaa51023f1b24d78",
+    "SKILL.md": "362b0bec828219d9f4b08ca7c466164e67253bdd817359258e60d2e9c5692a8f",
+    "agents/openai.yaml": "967df5c80a2a00e8fea9ce0e7914fb57114c93d16baa3b7743347a4dfeed61fc"
+  },
+  "additional_sources_sha256": {
+    "https://github.com/mattpocock/skills/blob/885e2ca4d842d139e9aef4e48d366c63cb1b8013/LICENSE -> LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+  }
+}

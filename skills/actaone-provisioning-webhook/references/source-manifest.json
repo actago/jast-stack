@@ -1,0 +1,10 @@
+{
+  "source": "personal Claude skill ~/.claude/skills/actaone-provisioning-webhook (folder contains only SKILL.md)",
+  "snapshot": "2026-11-17",
+  "upstream_commit": null,
+  "source_mtime": "2026-07-31",
+  "source_states_contract_at": "actaOne 5ce8b18 (as stated in the source skill)",
+  "sha256": {
+    "SKILL.md": "67ce6e65a3acd890d258f42625994f1381134b3205da73c883c7ced89a300a16"
+  }
+}

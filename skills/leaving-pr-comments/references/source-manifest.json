@@ -1,0 +1,16 @@
+{
+  "source": "~/.agents/skills/leaving-pr-comments (installiert; ~/.codex, ~/.claude, ~/.claude-jast, ~/.claude-firma verlinken darauf)",
+  "upstream": "https://github.com/t3dotgg/tstack/tree/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/leaving-pr-comments",
+  "upstream_commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+  "license": "MIT",
+  "snapshot": "2026-11-17",
+  "hash_basis": "installierte Bytes vor JAST-Anpassung",
+  "sha256": {
+    "SKILL.md": "2910659f62aaa863771d9911169af73d1fd32e811b32c0f7ef84c43ac6ec05cb",
+    "agents/openai.yaml": "f89fa0d9ae1c3e973b3e9ecb50549faee62fd1a0e59973bade68802c74183fdb"
+  },
+  "additional_sources_sha256": {
+    "~/.agents/tstack/LICENSE -> LICENSE": "ae15508e5c2a955805406f0065e6ec8d19d1468be3439d3a7d66db353c7cd4e5",
+    "~/.agents/tstack/T3-MULTI-HARNESS.md -> references/t3-multi-harness.md (angepasst)": "d3c76156ab2314bd6da2922cfb6d5bced33680dc8b64f0bd3df9e845dae4c1bd"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source": "~/.agents/skills/modernize (installiert; ~/.codex, ~/.claude, ~/.claude-jast, ~/.claude-firma verlinken darauf)",
+  "upstream": "https://github.com/t3dotgg/tstack/tree/7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd/skills/modernize",
+  "upstream_commit": "7de017b3fc9d50c03cf3ecb98fb71e0ca65a78bd",
+  "license": "MIT",
+  "snapshot": "2026-11-17",
+  "hash_basis": "installierte Bytes vor JAST-Anpassung",
+  "sha256": {
+    "SKILL.md": "943adb3adab0095f919cdcedfd60cd61e9b7c8344c4f43e677f707a73009d879",
+    "agents/openai.yaml": "6675e91e10f2b264fe1a027072f6d9f46299f781011e248a5ba075fc1f764e09"
+  },
+  "additional_sources_sha256": {
+    "~/.agents/tstack/LICENSE -> LICENSE": "ae15508e5c2a955805406f0065e6ec8d19d1468be3439d3a7d66db353c7cd4e5",
+    "~/.agents/tstack/T3-MULTI-HARNESS.md -> references/t3-multi-harness.md (angepasst)": "d3c76156ab2314bd6da2922cfb6d5bced33680dc8b64f0bd3df9e845dae4c1bd"
+  }
+}

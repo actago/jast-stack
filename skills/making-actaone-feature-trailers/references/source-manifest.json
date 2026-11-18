@@ -1,0 +1,9 @@
+{
+  "source": "personal Claude skill ~/.claude/skills/making-actaone-feature-trailers (folder contains only SKILL.md)",
+  "snapshot": "2026-11-17",
+  "upstream_commit": null,
+  "source_mtime": "2026-09-24",
+  "sha256": {
+    "SKILL.md": "ef91a0a70f13bb5521320e238b637297a9bc924ab42d5e0085b8fb175666d581"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source": "actaOne repo, agent/hermes/skills/actaone-release-notes",
+  "snapshot": "2026-11-17",
+  "upstream_commit": "e25ee61 (last commit touching the folder; identical on HEAD dd0a334 and origin/main 73ce7d4)",
+  "hash_basis": "bytes of the local working copy; SKILL.md there has mixed CRLF/LF line endings but the same content as the Git blob",
+  "sha256": {
+    "SKILL.md": "829e2fc39bb3ede06d9e73215f20128ba61375717e94474d6f833046a25a71c5",
+    "agents/openai.yaml": "13b6a7f0012549faf67139ea4cf85d705a797f2bfb0f528dcb937f742fbd3f86",
+    "references/editorial-policy.md": "ccfbdeb99c542d7ca2e2e7ff1c4102a304475f5cdd792cc49a608baf845e0c41",
+    "references/librechat-ui-payload.md": "6d92def04fe337b2bc0ff2e63fa9f354f43c44b9ed74ca956383c2723ab4d72e",
+    "references/output-schema.md": "c25e512c75f52bc3341ef427c5b7d65e061bacd9fdbf2a6c93253ff4f3e4c2ed",
+    "references/safety-policy.md": "e9b773e3d4689fa194c71d0442447b414c3e64cbb968964ce0a20e69e7cb6bd1"
+  },
+  "git_blobs": {
+    "SKILL.md": "014aecb0d2762b94d0a327bdb626d4191ff3e266",
+    "agents/openai.yaml": "9845472c3e020c92eeadc02494f1ceb67e36a6d6",
+    "references/editorial-policy.md": "489ea7d28aad6e7d29910fa6103770c8ef2a280b",
+    "references/librechat-ui-payload.md": "f29ad06a1165a9f593d6e207a43114eea9b2b547",
+    "references/output-schema.md": "24e9a5eaf32d03aa006fae4cd0441b262ffc60f0",
+    "references/safety-policy.md": "c6085f45842ab19cd057286f0e26ebde5e77fba0"
+  }
+}

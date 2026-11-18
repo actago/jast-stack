@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-11-17",
+  "checkout_head": "dd0a3347b23edbeeb2d4ee830d469d14b2cdd188",
+  "scope": "local files; may contain uncommitted changes; no live verification",
+  "sources": [
+    {
+      "repository": "actago/actaOne",
+      "path": ".claude/skills/sudo-window/SKILL.md",
+      "sha256": "11fb0113908086d0d3652955ad06b4fdc273d07e6531555d8bc7ba8e73035ca3"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/inventory.example.yml",
+      "sha256": "b691580ed6886b97b0fcceb506aa5650a9b0c2c3904981a6f62cd8808586a429"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "docs/PROXMOX_SETUP.md",
+      "sha256": "94b546d6ae5fb6dfe8cf7ae944a569f0ce3fb7b03f6efd3ca6051ac084cc3b2d"
+    }
+  ],
+  "adaptations": "Replaces fixed NOPASSWD:ALL/file-name recipe with existing admin identity first, safe secret handoff, unique own temporary rules and ownership-aware cleanup.",
+  "newer_reference_comparison": {
+    "revision": "73ce7d4ccdb5097d3916f15357da3f4a2a98a7e3",
+    "reference": "locally available origin/main; no fresh fetch or live verification",
+    "sources": [
+      {
+        "path": ".claude/skills/sudo-window/SKILL.md",
+        "sha256": "cc5175b64c5ffac142498ae3cfd46ebe0147daeaede767539031333624d12420"
+      },
+      {
+        "path": "infra/inventory.example.yml",
+        "sha256": "0a5031156674fdc06ac7db9b624b08784f95788f4de7122ac9322bbabc87bbc7"
+      },
+      {
+        "path": "docs/PROXMOX_SETUP.md",
+        "sha256": "94b546d6ae5fb6dfe8cf7ae944a569f0ce3fb7b03f6efd3ca6051ac084cc3b2d"
+      }
+    ]
+  }
+}

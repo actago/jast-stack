@@ -1,0 +1,18 @@
+{
+  "source": "~/.agents/skills/writing-for-agents (installiert über ~/.agents/.skill-lock.json)",
+  "upstream": "https://github.com/mattpocock/skills/tree/885e2ca4d842d139e9aef4e48d366c63cb1b8013/skills/productivity/writing-for-agents",
+  "upstream_commit": "885e2ca4d842d139e9aef4e48d366c63cb1b8013",
+  "skill_folder_tree": "ad2925850efb8973a72d2e666f7a975f9a2d4a9b",
+  "installed_at": "2026-08-19T14:06:28.281Z",
+  "license": "MIT",
+  "snapshot": "2026-11-17",
+  "hash_basis": "installierte Bytes vor JAST-Anpassung",
+  "sha256": {
+    "SKILL-MECHANICS.md": "86f112c08d785cc224c13dcda75c0724b74bd62622cc61d4b7ab3dbbaf37f6fc",
+    "SKILL.md": "1c0c4ebf2d221917591144f0ced4fe46dae13301cb3d6d93fc88ecf0dda6aed2",
+    "agents/openai.yaml": "486c388ed1babac6ea25001147b41d3ff6c8892b0128ae1b0bef8feea6363428"
+  },
+  "additional_sources_sha256": {
+    "https://github.com/mattpocock/skills/blob/885e2ca4d842d139e9aef4e48d366c63cb1b8013/LICENSE -> LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+  }
+}

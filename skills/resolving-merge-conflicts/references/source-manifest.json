@@ -1,0 +1,17 @@
+{
+  "source": "~/.agents/skills/resolving-merge-conflicts (installiert über ~/.agents/.skill-lock.json)",
+  "upstream": "https://github.com/mattpocock/skills/tree/885e2ca4d842d139e9aef4e48d366c63cb1b8013/skills/engineering/resolving-merge-conflicts",
+  "upstream_commit": "885e2ca4d842d139e9aef4e48d366c63cb1b8013",
+  "skill_folder_tree": "77f0d7de3143abbf03e55a63522d30bff31ae908",
+  "installed_at": "2026-08-19T14:06:28.245Z",
+  "license": "MIT",
+  "snapshot": "2026-11-17",
+  "hash_basis": "installierte Bytes vor JAST-Anpassung",
+  "sha256": {
+    "SKILL.md": "d97e7320010bbe7d32313c574acd47cec830d64edd59c956bd0ce2cba84e6ad7",
+    "agents/openai.yaml": "ad953099f6df6fe1b1e6e395ce38dfab3eb3a4e37461cfb318b0e81a32a35b4b"
+  },
+  "additional_sources_sha256": {
+    "https://github.com/mattpocock/skills/blob/885e2ca4d842d139e9aef4e48d366c63cb1b8013/LICENSE -> LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+  }
+}

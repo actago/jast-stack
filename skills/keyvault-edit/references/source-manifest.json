@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-11-17",
+  "checkout_head": "dd0a3347b23edbeeb2d4ee830d469d14b2cdd188",
+  "scope": "local files; may contain uncommitted changes; no live verification",
+  "sources": [
+    {
+      "repository": "actago/actaOne",
+      "path": ".claude/skills/keyvault-edit/SKILL.md",
+      "sha256": "90580dd0c490436f0d8f045610b7c54b23e4c746da1230468931f5c9758d8382"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "scripts/keyvault-secrets.sh",
+      "sha256": "b5f3c196118503c9105d1c61d2c15bf140531860a9f6e30673e42a6ae8404e41"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "CLAUDE.md",
+      "sha256": "04fdca8eb4ab076498e1385de0db2ee0e0f568727f9260b88cc5ef7ead236549"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "docs/AZURE_KEY_VAULT.md",
+      "sha256": "72490e39f1a6cbc8127c8c2a0da79ee4e22de0a4629cbb46f6c72e4dccb98d9b"
+    }
+  ],
+  "adaptations": "Preserved scopes/chunking/SecretNotFound behavior; requires insertion of missing keys, manifest/part version comparison and writer coordination; Vault versions replace local restore copies.",
+  "newer_reference_comparison": {
+    "revision": "73ce7d4ccdb5097d3916f15357da3f4a2a98a7e3",
+    "reference": "locally available origin/main; no fresh fetch or live verification",
+    "sources": [
+      {
+        "path": ".claude/skills/keyvault-edit/SKILL.md",
+        "sha256": "b450a8ddc030c1f23725e9cb059396d1301d076032e2fcf487079a1c20e9ccbc"
+      },
+      {
+        "path": "scripts/keyvault-secrets.sh",
+        "sha256": "87ef24be7857acc7a500577e46d3d6c98bd83e7a07a83486efbbed516fd472fa"
+      },
+      {
+        "path": "CLAUDE.md",
+        "sha256": "1252b671098b56f42804e4de0f3c3baf98778a44119e9e33c2b9fda1e719c8df"
+      },
+      {
+        "path": "docs/AZURE_KEY_VAULT.md",
+        "sha256": "95b4afcd19c51843d337b9535a13122337b202cd779916a7a97347201ac914dc"
+      },
+      {
+        "path": "scripts/promote.sh",
+        "sha256": "7a5957ca84aabf16accfff5dad261abe34f422c54049d220d580274031783154"
+      },
+      {
+        "path": "scripts/selfheal_levels.py",
+        "sha256": "e0a4fc1bffdb4b93d62b6548836be04b070925e59bd002b4f53b6e2976140876"
+      },
+      {
+        "path": "docs/operations/selfheal-stufen-rollout.md",
+        "sha256": "5e9473c06fbcfae7f0c2a54ccf11f8f1e74c8b7f50d75b92e834c0f4b4573e6b"
+      }
+    ]
+  }
+}

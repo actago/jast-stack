@@ -1,0 +1,104 @@
+{
+  "checked_at": "2026-11-17",
+  "checkout_head": "dd0a3347b23edbeeb2d4ee830d469d14b2cdd188",
+  "scope": "local files; may contain uncommitted changes; no live verification",
+  "sources": [
+    {
+      "repository": "actago/actaOne",
+      "path": ".claude/agents/actaone-infra.md",
+      "sha256": "4eb5077cc7c6300e9906e720f3bce54a5cff1e64e8909ac779c3cba16f616ec7"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/ansible.cfg",
+      "sha256": "179140b78772f925aaa46cb9ece6cd4f241c9aae502ba7c56a677217e4be335f"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/inventory.example.yml",
+      "sha256": "b691580ed6886b97b0fcceb506aa5650a9b0c2c3904981a6f62cd8808586a429"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/playbooks/configure-deploy-control-api.yml",
+      "sha256": "58b2a52d6fac254f4eea80b34fee17a2a7b215359359ef20eefb193e800125ad"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/playbooks/configure-ops-dashboard.yml",
+      "sha256": "8525c3952c5ceb3136a2af15914ad5c0adc3c8424fc803918ea98217613d267d"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/roles/deploy_control_api/tasks/main.yml",
+      "sha256": "910e5d865514a3a9f6efc18fedc8b164a864122d12cb5a0545314c36dfaa910c"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/roles/ops_dashboard/tasks/main.yml",
+      "sha256": "eb8f7842c2d1e3dc4ae94ae757203442534f37ba203f739a1026ccbeed34e69c"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/roles/webhook_receiver/tasks/main.yml",
+      "sha256": "4df6f1d423dc9b82f835cef0c2a1231a36bd196353412d6c0d8d3d377a5b1cb7"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": ".gitignore",
+      "sha256": "05971e71fec9c44d6b3176f2b411e8619f6a1cdb85c7d3dcdc9ad557b8513619"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "provisioning/deploy-control-api/index.js",
+      "sha256": "496ae64dbcc5603c6db698ef057eb0c439cbb4c0568eedcfa80540afbda23869"
+    }
+  ],
+  "adaptations": "Extracted operational procedure from the agent profile; added actual Ansible connection identity, persistent variable sources, target overrides, job coordination and bounded check-mode claims.",
+  "newer_reference_comparison": {
+    "revision": "73ce7d4ccdb5097d3916f15357da3f4a2a98a7e3",
+    "reference": "locally available origin/main; no fresh fetch or live verification",
+    "sources": [
+      {
+        "path": ".claude/agents/actaone-infra.md",
+        "sha256": "33ae066de31bff7dbe02c5ae6953e42b91cc2b0882169a626f389e6189193faa"
+      },
+      {
+        "path": "infra/ansible.cfg",
+        "sha256": "053e67f49dd4ceb20f273af8285be19f5fba06de746820dfb0ba7d4fb83e2716"
+      },
+      {
+        "path": "infra/inventory.example.yml",
+        "sha256": "0a5031156674fdc06ac7db9b624b08784f95788f4de7122ac9322bbabc87bbc7"
+      },
+      {
+        "path": "infra/playbooks/configure-deploy-control-api.yml",
+        "sha256": "e7c05620ce6cd2085ee1b121c1a156d90fc7348b259bfaac2c994500663c185b"
+      },
+      {
+        "path": "infra/playbooks/configure-ops-dashboard.yml",
+        "sha256": "e059d0f6252e4e42baa1e1cfca5791d03b386c10b33087faffecdb6fd9232350"
+      },
+      {
+        "path": "infra/roles/deploy_control_api/tasks/main.yml",
+        "sha256": "17733a4f41abdb1a0057b69ea714f3760d5828ae7a459eec2df42ec86727ad87"
+      },
+      {
+        "path": "infra/roles/ops_dashboard/tasks/main.yml",
+        "sha256": "58a49b78270502f2fb5ea049e8084e28c33a857d93e6d17fc4f87e65a6a499d5"
+      },
+      {
+        "path": "infra/roles/webhook_receiver/tasks/main.yml",
+        "sha256": "2fd8dd315dd87c66924c91611b06f522921ba934c079a8a8eebea66831147ef6"
+      },
+      {
+        "path": ".gitignore",
+        "sha256": "823496f7b03a8a166deeafc1ef184cf61509c1536f25cc0bb4e80c459481e654"
+      },
+      {
+        "path": "provisioning/deploy-control-api/index.js",
+        "sha256": "e46fb42c1c97c7b3850da6d81d0caf06e0140ae706dd5f53c6f83175cbe6ad84"
+      }
+    ]
+  }
+}

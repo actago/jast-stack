@@ -1,0 +1,18 @@
+{
+  "source": "~/.agents/skills/diagnosing-bugs (installiert über ~/.agents/.skill-lock.json)",
+  "upstream": "https://github.com/mattpocock/skills/tree/885e2ca4d842d139e9aef4e48d366c63cb1b8013/skills/engineering/diagnosing-bugs",
+  "upstream_commit": "885e2ca4d842d139e9aef4e48d366c63cb1b8013",
+  "skill_folder_tree": "99bd56983e42bc752c52da67f1112e4121781cd1",
+  "installed_at": "2026-08-19T14:06:28.214Z",
+  "license": "MIT",
+  "snapshot": "2026-11-17",
+  "hash_basis": "installierte Bytes vor JAST-Anpassung",
+  "sha256": {
+    "SKILL.md": "bca66b7141da7d225b7dfd1abf6f2bee657b8044d3897604055e760749c71724",
+    "agents/openai.yaml": "167ab1659754b8c53706ecca7502ccc7fb219ff14f0c36bfb1db05ae31a8ac58",
+    "scripts/hitl-loop.template.sh": "063ef14e7212113c7778258172e7c76e963926963e448934048f505d6e576e8f"
+  },
+  "additional_sources_sha256": {
+    "https://github.com/mattpocock/skills/blob/885e2ca4d842d139e9aef4e48d366c63cb1b8013/LICENSE -> LICENSE": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5"
+  }
+}

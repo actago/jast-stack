@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-11-17",
+  "checkout_head": "dd0a3347b23edbeeb2d4ee830d469d14b2cdd188",
+  "scope": "local files; may contain uncommitted changes; no live verification",
+  "sources": [
+    {
+      "repository": "actago/actaOne",
+      "path": ".claude/agents/actaone-infra.md",
+      "sha256": "4eb5077cc7c6300e9906e720f3bce54a5cff1e64e8909ac779c3cba16f616ec7"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "CLAUDE.md",
+      "sha256": "04fdca8eb4ab076498e1385de0db2ee0e0f568727f9260b88cc5ef7ead236549"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "docs/PROXMOX_SETUP.md",
+      "sha256": "94b546d6ae5fb6dfe8cf7ae944a569f0ce3fb7b03f6efd3ca6051ac084cc3b2d"
+    },
+    {
+      "repository": "actago/actaOne",
+      "path": "infra/inventory.example.yml",
+      "sha256": "b691580ed6886b97b0fcceb506aa5650a9b0c2c3904981a6f62cd8808586a429"
+    }
+  ],
+  "adaptations": "Extracted source-first environment routing from the agent profile; removed historical host/fleet facts; identifies origin and verifies route plus guest identity.",
+  "newer_reference_comparison": {
+    "revision": "73ce7d4ccdb5097d3916f15357da3f4a2a98a7e3",
+    "reference": "locally available origin/main; no fresh fetch or live verification",
+    "sources": [
+      {
+        "path": ".claude/agents/actaone-infra.md",
+        "sha256": "33ae066de31bff7dbe02c5ae6953e42b91cc2b0882169a626f389e6189193faa"
+      },
+      {
+        "path": "CLAUDE.md",
+        "sha256": "1252b671098b56f42804e4de0f3c3baf98778a44119e9e33c2b9fda1e719c8df"
+      },
+      {
+        "path": "docs/PROXMOX_SETUP.md",
+        "sha256": "94b546d6ae5fb6dfe8cf7ae944a569f0ce3fb7b03f6efd3ca6051ac084cc3b2d"
+      },
+      {
+        "path": "infra/inventory.example.yml",
+        "sha256": "0a5031156674fdc06ac7db9b624b08784f95788f4de7122ac9322bbabc87bbc7"
+      }
+    ]
+  }
+}
