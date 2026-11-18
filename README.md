@@ -20,6 +20,8 @@ ich benutz die alle. aber die sind über meine projekte, meine fehler und meinen
 
 schreibt euch lieber eure eigenen skills, als meine blind zu kopieren. schaut rein, nehmt euch ideen mit und baut daraus was, das zu eurer arbeit passt. lasst eure ki mal eure sessions durchgehen: was erklärt ihr immer wieder, wo muss sie ständig nachfragen und welche fehler passieren mehrfach? genau da würde ich anfangen.
 
+und wenn ihr euch mal richtig sicher seid, dass euer plan super ist: benutzt matts [grilling-skill](skills/grilling/SKILL.md). der ist voll gut, um euch mit den fragen zu nerven, die ihr euch selbst noch nicht gestellt habt. gerade wenn ihr von eurem plan echt überzeugt seid, lasst ihn mal dran.
+
 ## mein stack
 
 - **harnesses:** t3 code, claude code, codex und opencode
