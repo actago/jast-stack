@@ -83,12 +83,18 @@ zoho desk und projects nutzen die bereitgestellten mcp-server. postplan kommt be
 | [actaone-release-notes](skills/actaone-release-notes/SKILL.md) | release-änderungen in belegte release notes und produkt-payloads übersetzen. |
 | [making-actaone-feature-trailers](skills/making-actaone-feature-trailers/SKILL.md) | feature-trailer und kurze produktvideos erstellen oder überarbeiten. |
 
+## skripte und wissen
+
+für ci-pdfs gibt es den [generator](skills/actaone-documents/scripts/build_ci.py) mit gebündeltem konzeptlayout, logo, schriften und [beispiel-pdf](skills/actaone-documents/examples/report.pdf). die [startanleitung](skills/actaone-documents/references/ci-generator.md) beschreibt den aufruf.
+
+die [dokumentübersicht](knowledge/documents.md) erschließt außerdem die office-/pdf-skripte: kommentare, konvertierung, formularfelder, folienvorschau und formelberechnung. im [wissensbereich](knowledge/README.md) stehen einstiege zu agenten-workflows, actaone-quellen und wissenspflege.
+
 ## was ihr dafür braucht
 
 - die actaone-skills brauchen je nach aufgabe die privaten repos, runbooks, wissensbasis und eingerichteten zugänge.
 - die pr-skills brauchen github-zugang und teilweise weitere skills aus dieser sammlung. council und sol-loop brauchen die passenden modelle und einen harness, der sie aufrufen kann.
 - der trailer-skill braucht einen separaten arbeitsordner und seine werkzeuge. dieser ordner liegt nicht hier im repo.
-- firmenlogos, schriften und ci-vorlagen müsst ihr bereitstellen. die dokument-skills enthalten keine fertige actago-ci-ausstattung.
+- der ci-pdf-generator enthält logo, inter-schriften und das layout aus den actaone-konzeptdokumenten. andere vorlagen oder marken brauchen ihre eigenen assets; das paket ist keine vollständige firmenweite ci-richtlinie.
 - formatwerkzeuge und hilfsskripte haben eigene abhängigkeiten. schaut vor dem einsatz in den jeweiligen skill, besonders unter windows.
 
 quellen und lizenzen stehen in den skill-ordnern. die engineering-skills von matt pocock und tstack tragen mit-lizenzen, die vier office-skills apache-2.0-lizenzen. details und weitere hinweise stehen jeweils in `references/sources.md`.

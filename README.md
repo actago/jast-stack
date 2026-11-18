@@ -10,6 +10,8 @@ ich benutze meine eigenen skills, aber auch die aus diesen repos:
 
 hier steckt also auch arbeit von anderen drin. die quellen, lizenzen und meine anpassungen stehen bei den jeweiligen skills. was alles drin ist, findet ihr im [katalog](catalog.md).
 
+die [ci-docs](skills/actaone-documents/references/ci-generator.md) haben auch einen generator samt layout, logo, schriften und beispiel dabei. unter [wissen](knowledge/README.md) findet ihr die einstiege zu dokumenten, agenten-workflows und den passenden actaone-quellen.
+
 ## mein usage
 
 50,3 milliarden verarbeitete tokens, 1.653 sessions. claude code, codex und opencode. stand vom 17.11.2026.

@@ -5,7 +5,9 @@ description: Erstelle oder überarbeite gestaltete Team-Dokumente und CI-PDFs f�
 
 # Dokumente und CI-PDFs
 
-Dieser Skill ergänzt die Dateiformat-Werkzeuge um die Auswahl und Anwendung der tatsächlichen Gestaltungsvorgaben. Er enthält noch keine bestätigten actago-Logos, Schriftdateien oder CI-Vorlagen. Herkunft und Grenzen: [sources.md](references/sources.md).
+Dieser Skill enthält den wiederverwendbaren HTML/PDF-Generator und das Layout aus Jacobs actaOne-Konzeptdokumenten: Logo, Inter-Schriften, A4-Seiten, Tabellen und Kennzahlkacheln. Das ist eine konkrete Arbeitsvorlage, keine vollständige Markenrichtlinie. Herkunft und Grenzen: [sources.md](references/sources.md).
+
+Für ein CI-PDF in diesem Stil nutze [scripts/build_ci.py](scripts/build_ci.py) mit der Anleitung [ci-generator.md](references/ci-generator.md) und [examples/report.json](examples/report.json). Ein gerendertes [Beispiel-PDF](examples/report.pdf) liegt bei. Alle benötigten Layoutdateien liegen in diesem Skill; Python und Chromium/Chrome/Edge sind Laufzeitvoraussetzungen.
 
 ## 1. Format und Grundlage bestimmen
 

@@ -6,4 +6,10 @@ Grundlagen: lokal synchronisierte Claude-Skills `docx`, `pdf` und `docs` im akti
 
 Dieser Ordner ist eine eigene, herstellerunabhängige Ergänzung für CI-Quellenauswahl, konsistente Arbeitsquelle, Renderkontrolle und ehrliche Übergabe. Er kopiert keine konkrete Markenrichtlinie. Der Produkt-Skill `document-generation` innerhalb des LibreChat-Forks ist weiterhin nicht Bestandteil dieses Workflows.
 
-Noch nicht identifiziert: die vom Nutzer gemeinten konkreten CI-Vorlagen, Logos, Schriftdateien und deren maßgeblicher Pflegeort. Daher keine CI-Assets oder Muster-Kundendokumente eingebettet. Kein Word/PDF erstellt, keine Konvertierung und keine visuelle Abnahme ausgeführt. Die Prüfvorlage ist noch kein Verhaltenstest.
+## konkrete ci-vorlage und generator
+
+Am 18.11.2026 auf Nutzerauftrag aus `actaOne/outputs/hardware-konzept/` ergänzt. `style.css`, das kleine actaOne-Logo und Inter Regular/SemiBold/Bold sind unverändert übernommen; Byte-Hashes stehen in [ci-source-manifest.json](ci-source-manifest.json). Das vorhandene `build.py` liefert die Seitenstruktur (Cover, band, content, Fußzeilen), Tabellen/Kacheln und das Prinzip HTML → Chromium-PDF. `scripts/build_ci.py` macht daraus einen separaten JSON-Generator mit dynamischer Seitenzahl, escaped Texten, externem Browserpfad, isoliertem Browser und Überlaufprüfung. Keine ursprünglichen Berichtstexte, Messwerte, Ledger oder fertigen Kundenunterlagen sind übernommen.
+
+Die Inter-Lizenz liegt bei; Quelle: https://raw.githubusercontent.com/rsms/inter/master/LICENSE.txt. Die genaue Version der lokalen Schriftdateien ist nicht belegt. Logo und Layout sind Arbeitsmaterial aus dem privaten actaOne-Repo, keine pauschale Lizenzfreigabe für fremde Markenverwendung. Die Vorlage ist keine unabhängig bestätigte vollständige CI-Richtlinie.
+
+Praktisch geprüft: neutraler JSON-Bericht → zwei PDF-Seiten mit lokalem Chrome unter Windows; beide Seiten gerendert und visuell geprüft. Keine DOCX-/PPTX-/XLSX-Abnahme damit verbunden. Die allgemeinen Prüfszenarien bleiben davon getrennt.

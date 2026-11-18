@@ -1,0 +1,26 @@
+﻿{
+    "date":  "2026-11-18",
+    "files":  [
+                  {
+                      "sha256":  "2d206d4eb2a7946b27109be37362539ca5d600e52956bb9fca3a16160a9d9fe0",
+                      "path":  "assets/ci/style.css"
+                  },
+                  {
+                      "sha256":  "b762d38d10a2c95bf80843c6dc10ad011e44deb01cb4f721ab7f711653f7ab43",
+                      "path":  "assets/ci/assets/actaone-logo-sm.png"
+                  },
+                  {
+                      "sha256":  "220976705fbec109f43c5cfdceca639e99ace7e51f3eb67292b105d3575eb39b",
+                      "path":  "assets/ci/assets/Inter-Bold.woff2"
+                  },
+                  {
+                      "sha256":  "b6f9db9e45be20f3c1312c97fbee7ec36b7d8280f8caa4d53c9ba0408cc9997a",
+                      "path":  "assets/ci/assets/Inter-Regular.woff2"
+                  },
+                  {
+                      "sha256":  "8e52a861dc26ff4608c50bd7ff89b65d0d6216a2afe7b47ce5d84544811ca400",
+                      "path":  "assets/ci/assets/Inter-SemiBold.woff2"
+                  }
+              ],
+    "source":  "actaOne/outputs/hardware-konzept"
+}

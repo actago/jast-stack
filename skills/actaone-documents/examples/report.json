@@ -1,0 +1,18 @@
+{
+  "title": "Ein Projekt, ein klarer Plan",
+  "subtitle": "Neutrales Layoutbeispiel für einen actaOne-Bericht. Alle Inhalte sind erfunden.",
+  "date": "18.11.2026",
+  "label": "layoutbeispiel · entwurf",
+  "sections": [{
+    "eyebrow": "Projektübersicht",
+    "title": "Was wir als Nächstes machen",
+    "blocks": [
+      {"type": "paragraph", "text": "Dieses Beispiel zeigt Fließtext, Kennzahlen, eine Tabelle und einen Hinweis im vorhandenen Konzeptlayout."},
+      {"type": "tiles", "items": [{"label": "Arbeitspakete", "value": "3", "note": "erfundene Beispieldaten"}, {"label": "Status", "value": "Entwurf", "note": "noch keine Freigabe"}]},
+      {"type": "heading", "text": "Arbeitspakete und Abnahme"},
+      {"type": "table", "headers": ["Paket", "Ergebnis", "Prüfung"], "rows": [["Planung", "Abgestimmter Umfang", "Ziele und offene Fragen lesen"], ["Umsetzung", "Prüfbarer Entwurf", "Funktion und Layout prüfen"], ["Übergabe", "Quelle und PDF", "Alle Seiten ansehen"]]},
+      {"type": "list", "items": ["Inhalte in der JSON-Quelle ändern.", "Jeder Abschnitt wird zu einer eigenen Seite.", "Bei Überlauf den Abschnitt sinnvoll aufteilen."]},
+      {"type": "note", "text": "Ein erfolgreicher Export ersetzt keine visuelle Prüfung. Dieses Dokument ist ein Layoutbeispiel, keine verbindliche Markenrichtlinie."}
+    ]
+  }]
+}

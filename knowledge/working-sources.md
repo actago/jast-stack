@@ -12,4 +12,10 @@ Die Skills führen gezielt zu diesen Quellen, statt den gesamten Vault zu kopier
 
 Bei einer Änderung am maßgeblichen Runbook prüfen, ob der zugehörige Skill eine Entscheidung anders treffen muss. Dann nur die betroffene Regel und ihre Prüfvorlage aktualisieren. Veränderte IPs, Flottenzahlen oder Release-Tags nicht zusätzlich in mehreren Skills als aktuelle Wahrheit eintragen.
 
-Fremde Skills werden in dieser ersten Sammlung nicht neu verteilt. Bereits vorhandene tstack-/Matt-Pocock-Skills bleiben externe Ergänzungen. Eine spätere Übernahme muss Herkunft, Version, Lizenz und lokale Anpassungen erhalten.
+Die Sammlung enthält eigene Skills, tstack-/Matt-Pocock-Skills und Office-Skills. Herkunft, Lizenz und lokale Anpassungen stehen jeweils im Skill-Ordner. CI-Layout und Generator sind im Dokument-Skill gebündelt; die [Dokumentübersicht](documents.md) führt zu Skripten und Beispiel.
+
+## Erkenntnisse festhalten
+
+Eine brauchbare Notiz enthält die Frage, den betroffenen Bereich, die gelesene Quelle mit Stand, das beobachtete Ergebnis und verbleibende Unsicherheit. Entscheidungen zusätzlich mit Begründung und Folgen festhalten. Ein Fix ist erst als wirksam beschrieben, wenn der Endzustand geprüft wurde; ein Merge allein belegt keinen Rollout.
+
+Wiederkehrendes Arbeitswissen gehört in einen Skill oder dessen Referenz. Veränderliche Betriebsdaten gehören an ihre maßgebliche Stelle im Repo oder Team-Vault. Beispielinhalte in dieser Sammlung sind neutral; echte Tickets, Chats und Messdaten werden nicht zu Musterdokumenten kopiert.
