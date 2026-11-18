@@ -40,6 +40,8 @@ viel davon ist über zeit zusammengewachsen. ich nehm das, was mir gerade arbeit
 
 für long running tasks verwende ich [postplan](https://postplan.dev/) und [hark notifications](https://hark.ryan.ceo/), damit ich dauerhaft informiert bleibe, ohne die ganze zeit auf den agenten zu schauen. postplan hält den plan und fortschritt fest, hark schickt mir updates aufs handy, wenn etwas fertig ist, hängt oder meine entscheidung braucht.
 
+dazu nutze ich automatische post-session-hooks in den harnesses, damit die nachbereitung nach einer session mitläuft und ich sie nicht jedes mal selbst anstoßen muss.
+
 prompt engineering guide: [hier entlang](https://www.instagram.com/reel/Df1cN_qu8k9/?fqnt=dTJ0a25rZXBrZzQ0).
 
 lg jacob
